@@ -1,0 +1,21 @@
+.repo-preview {
+    padding: 10px 16px;
+    margin: 20px 0;
+    border-bottom: 1px solid #fafafa;
+  }
+  /* .repo-preview:hover {
+    box-shadow: 1px 3px 5px rgba(36, 34, 34, 0.5);
+  } */
+
+.no-result{
+  text-align: center;
+  z-index: 5;
+}
+.message {
+  margin-top: 0;
+}
+
+.hi {
+  font-size: 75px;
+  margin: 0;
+}
