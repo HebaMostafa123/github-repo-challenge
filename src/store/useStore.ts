@@ -49,7 +49,7 @@ const useStore = create<State>((set, get) => ({
         try {
           const response = await axios.get(`https://api.github.com/search/repositories?q=${keyword}`, {
             headers: {
-              Authorization: `${token}`,
+              Authorization: `Bearer ${token}`,
             },
           });
           const reposWithStarredInfo = response.data.items.map((repo: any) => ({
