@@ -8,6 +8,8 @@ In the project directory, you can run:
 
 ### `npm start`
 
+**:warning: Note: To run the project correctly add GITHUB_API_TOKEN to .env file :warning:**
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
